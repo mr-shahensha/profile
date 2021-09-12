@@ -81,15 +81,17 @@ h1{
     flex-direction: row;
     width: 50%;
     text-align: center;
-    color: black;
 }
 .share{
     flex-direction: row;
     width: 50%;
-    text-align: center;
-  
+    text-align: center; 
 }
-
+.posts a{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.842);
+    font-weight: bold;
+}
 
 
 @media (max-width:1048px){
@@ -159,4 +161,29 @@ h1{
         width: 100%;
         border-bottom: 4px solid white;
     }
+
+    
+/* second part */
+
+.posts{
+    display: flex;
+  }
+  .my_post{
+      flex-direction: row;
+      width: 50%;
+      text-align: center;
+      color: black;
+  }
+  .share{
+      flex-direction: row;
+      width: 50%;
+      text-align: center;
+    
+  }
+  
+  .posts a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.842);
+    font-weight: bold;
+}
 }
