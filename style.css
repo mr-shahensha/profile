@@ -8,6 +8,7 @@
 }
 body{
     background-color: rgba(217, 243, 255, 0.849)!important;
+    color: black !important;
 }
 nav{
     display: flex;
@@ -74,17 +75,19 @@ h1{
 /* second part */
 
 .posts{
-    position: relative;
+  display: flex;
 }
 .my_post{
-    position: absolute;
+    flex-direction: row;
     width: 50%;
     text-align: center;
+    color: black;
 }
 .share{
-    position: absolute;
+    flex-direction: row;
     width: 50%;
     text-align: center;
+  
 }
 
 
